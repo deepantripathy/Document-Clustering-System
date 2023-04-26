@@ -1,0 +1,10 @@
+Folder with all models created throughout the project
+bag_words_model.pkl
+doc2vec_model.pkl
+word2vec_model.pkl
+kmeans_model_bag_words.pkl
+kmeans_model_doc2vec.pkl
+kmeans_model_word2vec.pkl
+
+These are all pickle files so unpack them using pickle.load(file) to start using each model
+Currently all models have been trained on a dataset of 56 pdf files ~ roughly 823 MB
