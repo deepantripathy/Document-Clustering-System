@@ -1,0 +1,9 @@
+a. Preprocess the PDFs: First, you need to convert the PDFs to text format and preprocess them to remove stopwords, punctuation, and other irrelevant information. You can use Python libraries such as PyPDF2, pdfminer, or tika to extract text from the PDFs.
+
+b. Train Doc2Vec model: Next, you need to train a Doc2Vec model on the preprocessed text data. Doc2Vec is a neural network-based algorithm that generates a vector representation of each document in the corpus. You can use the Gensim library in Python to train a Doc2Vec model.
+
+c. Generate Document Vectors: Once you have trained the Doc2Vec model, you can use it to generate vector representations of each document in the corpus.
+
+d. Perform K-means Clustering: After generating the document vectors, you can use K-means clustering algorithm to cluster the documents into groups based on their similarity. K-means clustering is a popular unsupervised machine learning algorithm that groups similar documents together. You can use the scikit-learn library in Python to perform K-means clustering.
+
+e. Identify Cluster Keywords: Once you have clustered the documents into groups, you can identify the top keywords for each cluster by analyzing the most frequent words in each cluster. You can use Python libraries such as NLTK or spaCy to extract the most frequent words from each cluster.
